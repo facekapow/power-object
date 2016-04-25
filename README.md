@@ -54,5 +54,8 @@ Returns an array containing the PowerObject's keys.
 #### PowerObject.prototype.remove(key)
 Removes a property from the PowerObject. Unlike a regular Object, this can include Objects and doesn't stringify anything.
 
+#### PowerObject.prototype.clearAll()
+Clears all properties from the PowerObject.
+
 #### PowerObject.prototype[Symbol.iterator]
 Returns an Iterator to iterate over the PowerObject's properties. Used by `for...of` to iterate.

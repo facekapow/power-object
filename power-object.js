@@ -50,6 +50,9 @@ class PowerObject {
     }
     return ret;
   }
+  clearAll() {
+    this[internalHandle] = [];
+  }
   [Symbol.iterator]() {
     let i = 1;
     return {
